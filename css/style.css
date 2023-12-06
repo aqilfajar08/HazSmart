@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@500;600&family=Quicksand:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    scroll-behavior: smooth;
+}
+
+.main-container {
+    position: relative;
+
+}
+
+/* All Nav */
+
+.nav {
+    display: flex;
+    padding: 1.1rem 0;
+    justify-content: flex-end;
+}
+
+.nav ul {
+    padding-right: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-size: 1.0rem;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.nav ul li a:hover {
+    background-color: rgb(238, 174, 202);
+    background-color: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(203, 227, 255, 1) 100%);
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px
+}
+
+/* All Logo */
+
+.logo {
+    position: absolute;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    transition: 0.3s ease-in-out;
+}
+
+.logo a:hover {
+    color: rgb(238, 174, 202);
+    color: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(203, 227, 255, 1) 100%);
+}
+
+/* Header Box */
+
+.box {
+    padding: 2.3rem 0;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(203, 227, 255, 1) 100%);
+    text-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px;
+}
+
+/* Input box */
+
+header {
+    position: relative;
+}
+
+.input-container {
+    display: flex;
+    padding: 0.5rem 0;
+    justify-content: center;
+}
+
+.input-main-container {
+    display: flex;
+    align-items: center;
+    border: 1px;
+    border-radius: 10px;
+    margin: 1.5rem;
+    transform: translateX(-25%, -25%);
+    height: 68px;
+    width: 500px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 5px;
+    position: absolute;
+    top: 55%;
+}
+
+form {
+    text-align: center;
+}
+
+.input {
+    border: none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 45.5px;
+    width: 25rem;
+    border-radius: 5px;
+    font-family: 'quicksand';
+    right: 2rem;
+    position: absolute;
+}
+
+/* Judul */
+
+.all {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pre-title {
+    position: absolute;
+    top: 250px;
+    font-size: 300%;
+}
+
+.title-container {
+    position: absolute;
+    top: 22rem;
+    font-size: 125%;
+}
+
+/* main and conten */
+
+main {
+    margin-top: 20rem;
+}
+
+#conten-container {
+    display: grid;
+    height: 750px;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    padding: 3rem;
+    gap: 8rem;
+}
+
+.rencent {
+    padding: 30px;
+}
+
+/* Conten-1 */
+
+.conten-1 {
+    border: 3px solid rgb(0, 0, 0);
+    width: 754.9px;
+    height: 354.9px;
+    border-radius: 10px;
+}
+
+.foto-bro img {
+    object-fit: cover;
+    width: 750px;
+    height: 350px;
+    border-radius: 7px;
+}
+
+.math {
+    margin-top: 2rem;
+    display: flex;
+    margin-left: 1rem;
+}
+
+/* Conten-2 */
+
+.conten-2 {
+    border: 3px solid;
+    width: 354.9px;
+    height: 294.9px;
+    border-radius: 10px;
+}
+
+.biology img {
+    object-fit: cover;
+    width: 350px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.exp {
+    top: 5rem;
+}
+
+.bio {
+    display: grid;
+    padding-left: 72rem;
+    padding-right: 3rem;
+    position: absolute;
+    top: 42rem;
+}
+
+/* Conten-3 */
+
+.conten-3 {
+    border: 3px solid;
+    width: 354.9px;
+    height: 294.9px;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.geography img {
+    object-fit: cover;
+    width: 351px;
+    height: 291px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.geo {
+    display: grid;
+    padding-left: 72rem;
+    padding-right: 3rem;
+    position: absolute;
+    top: 63rem;
+}
+
+footer {
+    padding: 1.5rem 0;
+    background: whitesmoke;
+    text-align: center;
+}
+
+.footer-icons {
+    margin-bottom: 1rem;
+}
+
+.footer-icons a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.footer-icons svg {
+    fill: #3e3f40;
+}
+
+.footer-icons a:hover svg {
+    fill: #000;
+}
+
+.small {
+    font-size: 50%;
+}
+
+.contain {
+    height: 50rem;
+}
+
+/* Grid */
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3em;
+    padding: 3rem;
+}
+
+/* smart */
+
+#smart {
+    background-color: var(--secondaryBackgroundColor);
+    padding: 10rem 0;
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+
+    position: relative;
+    width: 100%;
+}
+
+.smarts .pre-title {
+    margin: 0 auto;
+}
+
+.smart-title {
+    text-align: center;
+    padding: 30px;
+    font-size: 250%;
+}
+
+.smart{
+    padding: 3rem 2rem;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+    box-shadow: rgba( 0, 0, 0, 0.4) 0px 3px 5px;
+    background-color: var(--primaryBackgroundColor);
+    border-radius: 30px;
+}
+
+.smart:hover{
+    transform: translateY(-20px);
+
+    background: rgb(241,215,226);
+    background: radial-gradient(circle, rgba(241,215,226,1) 0%, rgba(215,231,249,1) 100%);
+    box-shadow: var(--primaryIconColorHover) 0px 3px 5px;
+}
+
+.smart h4 {
+    margin: 1.5rem 0;
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+.smart-icon {
+    background-color: rgb(255, 247, 248);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem 1.3rem;
+    border-radius: 10px;
+}
+
+.smart-icon svg {
+    fill: black;
+}
